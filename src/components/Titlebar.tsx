@@ -13,7 +13,7 @@ const AnimatedLogoTitleBar = () => {
       
       {/* Title */}
       <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-white mb-4 md:mb-8 text-center z-20 px-4">
-        Trusted by teams at over <span className="hidden sm:inline">40+ of the </span>world's leading organizations
+        Trusted by teams at over <span className="hidden sm:inline">40+ of the </span>{`world's leading organizations`}
       </h2>
       
       {/* Logo container */}

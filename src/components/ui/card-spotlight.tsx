@@ -76,20 +76,20 @@ export const CardSpotlight = ({
 
 export function CardSpotlightDemo() {
   return (
-    <div className="flex flex-wrap justify-center space-x-4">
-      <CardSpotlight className="flex flex-col items-center border-2 justify-center h-40 w-96  text-2xl text-center  justify-center ">
+    <div className="flex flex-wrap space-y-8 justify-center space-x-4">
+      <CardSpotlight className="flex flex-col items-center border-2 justify-center h-40 w-96  text-2xl text-center ">
         <p className="text-xl font-bold relative z-20  text-white">100+</p>
         <div className="text-neutral-200 mt-4 relative z-20">
           Projects Completed
         </div>
       </CardSpotlight>
-      <CardSpotlight className="flex flex-col items-center border-2 justify-center h-40 w-96  text-2xl text-center  justify-center ">
+      <CardSpotlight className="flex flex-col items-center border-2 justify-center h-40 w-96  text-2xl text-center">
         <p className="text-xl font-bold relative z-20  text-white">1 Day</p>
         <div className="text-neutral-200 mt-4 relative z-20">
           Your dedicated team can begin immediately
         </div>
       </CardSpotlight>
-      <CardSpotlight className="flex flex-col items-center border-2 justify-center h-40 w-96  text-2xl text-center justify-center ">
+      <CardSpotlight className="flex flex-col items-center border-2 justify-center h-40 w-96  text-2xl text-center ">
         <p className="text-xl font-bold relative z-20  text-white">9+</p>
         <div className="text-neutral-200 mt-4 relative z-20">
           Years in SAAS UI/UX and development

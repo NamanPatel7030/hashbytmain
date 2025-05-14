@@ -10,6 +10,9 @@ const poppins = PoppinsFont({
 
 export const metadata: Metadata = {
   title: "HASHBYT",
+  icons: {
+    icon: '/hashbytfavi.png',
+  },
   description: "SaaS Redesign & Development Agency",
 };
 
